@@ -1,4 +1,8 @@
-LOG="nginx-access.log"
+if [ -z $1 ]; then 
+    echo "Usage: $0 <nginx-log-file-directory>"
+    exit 1
+fi
+LOG=$1
 
 echo "Top 5 IP addresses with the most request"
 
