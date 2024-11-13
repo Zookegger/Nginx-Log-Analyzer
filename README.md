@@ -10,7 +10,7 @@ This is a Bash script that analyze nginx log
 Run the tool from the command line, providing the log directory as an argument:
 
 ```Bash
-./nginx-log-analyze.sh <nginx-log-file-directory>
+bash nginx-log-analyze.sh <nginx-log-file-directory>
 ```
 
 This project is part of [roadmap.sh](https://roadmap.sh/projects/nginx-log-analyser) DevOps projects
